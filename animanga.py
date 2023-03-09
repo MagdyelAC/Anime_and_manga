@@ -1,3 +1,5 @@
 import streamlit as st
 
-st.write("Hello word")
+st.title("Hello World!")
+
+st.write(pathlib.Path.home())
